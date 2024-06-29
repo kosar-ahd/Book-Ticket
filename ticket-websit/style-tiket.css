@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+body{
+    background-image: url(img/sky.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.container{
+    max-width: 1240px;
+    margin: 100px auto;
+    padding: 3rem 4rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+}
+.info_input,
+.selectBox1,
+.selectBox2,
+.btn-nav{
+    text-align: center;
+}
+#fName,
+#lName,
+#phNumber,
+#email,
+#selectCountries,
+#selectCities,
+#Flight_Code{
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+}
+.btn{
+    padding: 8px 1rem;
+    margin-top: 36px;
+    background-color: rgb(255, 217, 0);
+    border-radius: 5px;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.see_ticket{
+    display: none;
+}

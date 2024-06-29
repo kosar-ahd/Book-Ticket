@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tiket</title>
+    <link rel="stylesheet" href="./ticket-websit/style-tiket.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" autocomplete="on">
+            <div class="info_input">
+                <input type="text" name="firstName" id="fName" placeholder="First Name" required autofocus value="">
+                <label for="fName"></label>
+                <input type="text" name="lastName" id="lName" placeholder="Last Name" required value="">
+                <label for="lName"></label>
+                <input type="text" name="phoneNumber" id="phNumber" placeholder="Phone Number" required value="">        
+                <label for="phNumber"></label>
+                <input type="text" name="Email" id="email" placeholder="Email Addres" required value="">
+                <label for="email"></label> 
+                <input type="text" name="FlightCode" id="Flight_Code" placeholder="Flight Code" readonly >
+                <label for="Flight_Code"></label> 
+            </div>
+            <div class="selectBox1">
+                <select name="countries" id="selectCountries">
+                    <option value="Please Select...">Please Select...</option>
+                    <option value="Iran">Iran</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="USA">USA</option>
+                    <option value="Canada">Canada</option>
+                </select>
+            </div>
+            <div class="selectBox2">
+                <select name="cities" id="selectCities">
+                    <option>Please Select City...</option>
+                </select>
+            </div>
+            <div class="btn-nav">
+                <button type="submit" class="btn book_ticket">Book a ticket</button>
+                <button type="submit" id="see_ticket" class="btn see_ticket"><a href="../result-ticket/ticket.html">See My ticket</a></button>
+            
+            </div>
+        </form>
+    </div>
+    <script src="./ticket-websit/script-tiket.js"></script>
+</body>
+</html>
