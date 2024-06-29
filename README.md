@@ -8,5 +8,5 @@
 
  <h2>In this project, FireBase is used as a database.</h2>
 
- <h1>Demo : [Book Ticket](https://kosar-ahd.github.io./Book-Ticket) </h1>
+ Demo : [Book Ticket](https://kosar-ahd.github.io./Book-Ticket) 
   
